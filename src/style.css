@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'LogoFont';
+    src: url('./fonts/RockSalt-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button:hover:not(.logo) {
+    cursor: pointer;
+    filter: brightness(.7);
+}

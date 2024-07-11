@@ -1,0 +1,32 @@
+.menu {
+    background-color: #0e1214;
+    display: flex;
+    gap: 35px;
+    height: 50px;
+}
+
+.menu * {
+    color: #ffffff;
+}
+
+.menu {
+    font-size: 16px;
+}
+
+.menu button:not(.logo) {
+    font-weight: bolder;
+}
+
+.logo span {
+    display: flex;
+    align-items: center;
+    fill: #719633;
+    font-size: 20px;
+    font-family: 'LogoFont';
+    color: #719633;
+}
+
+.logo span svg {
+    width: 50px;
+    height: 50px;
+}
