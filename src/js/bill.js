@@ -8,7 +8,6 @@ import Salad from '../images/salad-8274421_640.jpg';
 
 
 function menuPage() {
-    var MyImage = new Image();
     const menuItems = [
         {
             name: 'Coffee with toast',
@@ -60,10 +59,9 @@ function menuPage() {
     const listContent = () => {
         var itemList = '';
         menuItems.forEach(item => {
-            MyImage.src = item.image;
             var card =
             `<div class="card">
-                <img src="${MyImage.src}" alt="${item.name} image">
+                <img src="${item.image}" alt="${item.name} image">
                 <div class="item-info">
                     <h3>${item.name}</h3>
                     <span>$${item.price}</span>
