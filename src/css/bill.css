@@ -1,0 +1,61 @@
+.page-title {
+    font-family: 'Rocksalt';
+    text-align: center;
+    color: #ffffff;
+}
+
+#menu-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 50px;
+}
+
+.card {
+    border-right: 1px solid #ffffff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+}
+
+.card img {
+    grid-column: 1 / 2;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.item-info {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Montserrat';
+}
+
+.item-info h3 {
+    color: #ffffff;
+}
+
+.item-info span {
+    color: #dfa335;
+    align-self: flex-end;
+}
+
+.item-info p {
+    color: #b3afaf;
+    text-align: justify;
+}
+
+.item-info button {
+    color: #000000;
+    font-weight: bold;
+    border-style: inset;
+    background-color: #dfa335;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-self: self-end;
+}

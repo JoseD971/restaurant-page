@@ -1,6 +1,7 @@
 .menu {
     background-color: #0e1214;
     display: flex;
+    align-items: center;
     gap: 35px;
     height: 50px;
 }
@@ -9,20 +10,17 @@
     color: #ffffff;
 }
 
-.menu {
-    font-size: 16px;
-}
-
 .menu button:not(.logo) {
     font-weight: bolder;
+    font-size: 18px;
 }
 
 .logo span {
     display: flex;
     align-items: center;
     fill: #719633;
-    font-size: 20px;
-    font-family: 'LogoFont';
+    font-size: 25px;
+    font-family: 'Rocksalt';
     color: #719633;
 }
 

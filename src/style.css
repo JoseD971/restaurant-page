@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'LogoFont';
+    font-family: 'RockSalt';
     src: url('./fonts/RockSalt-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
     font-style: normal;
 }
 
@@ -18,4 +24,8 @@ button {
 button:hover:not(.logo) {
     cursor: pointer;
     filter: brightness(.7);
+}
+
+.container {
+    background-color: #12181c;
 }
