@@ -7,21 +7,21 @@
 
 .main-panel img{
     height: calc(100vh - 50px);
-    src: url(../images/odiseo-castrejon-1SPu0KT-Ejg-unsplash.jpg);
+    max-width: 80%;
 }
 
-.info h3 {
+.home-info h3 {
     color: #999898;
 }
 
-.info p {
+.home-info p {
     color: #ffffff;
     font-size: 35px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.info button {
+.home-info button {
     border: 1px solid #af552b;
     color: #ffffff;
     padding: 15px;

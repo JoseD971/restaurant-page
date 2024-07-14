@@ -53,7 +53,7 @@ function menuPage() {
     content.innerHTML = 
     `<div class="container">
         <h1 class="page-title">Our dishes</h1>
-        <div id="menu-list">
+        <div class="menu-list">
         </div>
     </div>`;
 
@@ -73,11 +73,10 @@ function menuPage() {
             </div>`;
             itemList += card;
         });
-        console.log(itemList);
         return itemList;
     }
 
-    const menuList = document.getElementById('menu-list');
+    const menuList = document.querySelector('.menu-list');
     menuList.innerHTML = listContent();
 }
 

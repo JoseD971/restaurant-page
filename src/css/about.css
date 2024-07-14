@@ -1,0 +1,30 @@
+.about-panel {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-panel img {
+    width: 500px;
+}
+
+.about-info * {
+    font-family: 'Montserrat';
+}
+
+.about-info {
+    color: #ffffff;
+    padding: 50px;
+}
+
+.about-info h1{
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.about-info p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
